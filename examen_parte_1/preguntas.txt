@@ -1,0 +1,16 @@
+Explicar brevemente las diferencias entre callback, promesas sin usar el
+async/await, 
+Respuesta: 
+Los callback son una forma de resolver la asinncronia pero nos da un proble de
+identacion llamado callback hell nuestro codigo puede ir creciedno la derecha.
+Las promesas solucionan esta problematica ya que se anidan y encandenan las funciones.
+
+Promesas usando el async/await
+Respuesta: las funciones debe de ser declaradas utilizando async lo que por default 
+nos retorna una promesa y cuando utilisamos esta funcion se tiene que utilizar await
+para esperar la respuesta de la promesa esto hace que nuestro codigo sea mas limpio 
+y consiso
+
+Observadores:
+Es un patron de diseño muy utilizado en javascript, no e podido trabajar con el 
+pero considero que no tendria ningun problema en adaptarme a el.
